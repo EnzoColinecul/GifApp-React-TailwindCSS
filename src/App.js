@@ -5,9 +5,6 @@ import GifGrid from './components/GifGrid';
 function App() {
   const [categories, setCategories] = useState([''])
 
-  /* const handleChange = () => {
-    setCategories([...categories, 'El pepe'])
-  } */
   return (
     <>
       <div className="flex space-x-4">

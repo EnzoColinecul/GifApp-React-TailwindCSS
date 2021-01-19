@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import searchIcon from '../assets/icons/search.svg'
+import searchIcon from '../../public/search.svg'
 
 const AddCategory = ({ setCategories }) => {
   const [inputValue, setInputValue] = useState('')
