@@ -22,7 +22,7 @@ const AddCategory = ({ setCategories }) => {
       <div className="flex group">
         <input
           placeholder="Buscar..."
-          className="font-semibold rounded-md border-2 pl-8 mb-4 mt-2 w-4/5 md:w-40 lg:max-w-lg  border-transparent"
+          className="font-semibold rounded-md border-2 pl-5 mb-4 mt-2 w-4/5 md:w-40 lg:max-w-lg  border-transparent"
           type="text"
           value={inputValue}
           onChange={handleInputChange}
